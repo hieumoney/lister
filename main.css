@@ -65,11 +65,14 @@ a {
     color: #374151;
     text-decoration: none;
 }
-header {
+header, nav {
     margin-bottom: 20px;
 }
 main {
     overflow-x: auto;
+}
+.table-heading th {
+    background-color: #E5E7EB;
 }
 th {
     background-color: #F3F4F6;
@@ -83,16 +86,16 @@ h1 {
     line-height: 38px;
     font-weight: 900;
 }
-.paying td, .paying td a {
+.paying td, .paying td a, .withdraw td {
     color: #059669;
 }
-.paying td {
+.paying td, .withdraw td {
     background-color: #ECFDF5;
 }
-.scamed td, .scamed td a {
+.scamed td, .scamed td a, .deposit td {
     color: #DC2626;
 }
-.scamed td {
+.scamed td, .deposit td {
     background-color: #FEF2F2;
 }
 .problem td, .problem td a {
