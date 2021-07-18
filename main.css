@@ -95,6 +95,12 @@ h1 {
 .scamed td {
     background-color: #FEF2F2;
 }
+.problem td, .problem td a {
+    color: #D97706;
+}
+.problem td {
+    background-color: #FFFBEB;
+}
 
 
 
