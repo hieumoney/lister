@@ -68,7 +68,7 @@ a {
 header, nav {
     margin-bottom: 20px;
 }
-main {
+.table-outer {
     overflow-x: auto;
 }
 .table-heading th {
