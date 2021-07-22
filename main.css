@@ -77,6 +77,14 @@ li a {
 time {
     display: block;
 }
+.paying {
+    width: 50%;
+    float: left;
+}
+.scamed {
+    width: 50%;
+    float: right;
+}
 .paying a {
     color: #059669;
 }
@@ -84,6 +92,12 @@ time {
     color: #DC2626;
 }
 
+@media only screen and (max-width: 960px) {
+    .scamed, .paying {
+        width: 100%;
+        float: none;
+    }
+}
 @media only screen and (max-width: 460px) {
     body {
         margin: 30px 20px;
