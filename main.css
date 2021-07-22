@@ -59,10 +59,10 @@ body {
     margin: 60px;
 }
 a {
-    color: #374151;
     font-weight: 500;
 }
 h1 {
+    color: #374151;
     font-size: 37px;
     line-height: 61px;
     font-weight: 900;
