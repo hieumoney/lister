@@ -58,7 +58,7 @@ body {
     color: #4B5563;
     margin: 60px;
 }
-a {
+a, b {
     font-weight: 500;
 }
 h1 {
